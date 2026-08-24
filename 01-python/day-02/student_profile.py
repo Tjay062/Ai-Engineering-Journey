@@ -1,0 +1,7 @@
+name = input("Enter your name: ")
+age = int(input("Enter your age: "))
+height = float(input("Enter your height in meters: "))
+weight = float(input("Enter your weight in kilograms: "))
+bmi = weight / (height ** 2)
+print("==============Student Profile==============")
+print(f"Name: {name}\nAge: {age}\nHeight: {height} m\nWeight: {weight} kg\nBMI: {bmi}")
